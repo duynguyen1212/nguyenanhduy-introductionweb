@@ -1,71 +1,47 @@
+AI: GEMINI
+lệnh dùng: viết cho mình đoạn code html thiết kế giao như trên hình nhưng không được phép sử dụng css và không được can thiệp vào thẻ html mà mình đã viết
+hết quả:
 <!DOCTYPE html>
 <html lang="vi">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>giới thiệu về linux</title>
-    <style>
-
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            display: flex; 
-            height: 100vh;
-        }
-
-        
-        .sidebar {
-            width: 250px;
-            background-color: #f4f4f4;
-            border-right: 1px solid #999;
-            padding: 20px;
-            box-sizing: border-box;
-        }
-
-       
-        .content {
-            flex: 1; 
-            padding: 40px;
-            background-color: #fff;
-            box-sizing: border-box;
-        }
-
-       
-        .sidebar a {
-            text-decoration: none;
-            color: #333;
-            font-weight: bold;
-        }
-        
-        .sidebar p {
-            margin-bottom: 10px;
-            border-bottom: 1px solid #ddd;
-            padding-bottom: 5px;
-        }
-
-        h1 {
-            margin-top: 0;
-            color: #2c3e50;
-        }
-    </style>
+    <title>giới thiệu về khóa học linux</title>
 </head>
 <body>
 
-    <div class="sidebar">
-        <div></div>
-        <p><a href="trang chủ">trang chủ<br></a></p>
-        <p><a href="nhap vào khóa học">khóa học về linux<br></a></p>
-        <p><a href="diễn đàn">diễn đàn</a></p>
-        <p><a href="thông tin liên hệ">liên hệ</a></p>
-    </div>
+    <table border="1" width="100%" height="500" cellspacing="0" cellpadding="0">
+        <tr>
+            <td width="200" bgcolor="#f0f0f0" valign="top">
+                <table width="100%" cellspacing="0" cellpadding="10">
+                    <tr>
+                        <td bgcolor="#808080"><a href="trang chủ"><font color="white">trang chủ</font></a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="nhap vào khóa học">khóa học về linux</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="diễn đàn">diễn đàn</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="thông tin liên hệ">liên hệ</a></td>
+                    </tr>
+                </table>
+            </td>
 
-    <div class="content">
-        <h1>khóa học về linux</h1>
-        <p>1.linux là gì?<br>
-            2.các bản phân phối của linux<br> 
-            3.mục đích của việc sử dụng linux
-        </p>
-    </div>
+            <td valign="top" style="padding: 20px;"> 
+                <div align="left">
+                    <h1>giới thiệu về linux</h1>
+                    <h2>khóa học về linux</h2>
+                    <p>
+                        1.linux là gì?<br>
+                        2.các bản phân phối của linux<br> 
+                        3.mục đích của việc sử dụng linux
+                    </p>
+                </div>
+            </td>
+        </tr>
+    </table>
 
 </body>
-</html>>
+</html>
